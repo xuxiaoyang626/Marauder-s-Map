@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0265BBA4-E66E-4864-9707-FB6A8D006E04</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Steerpath demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6BF9FEAF1D8434E7CE9809A04AAEF0D621D54AD</key>
+		<string>https://bitbucket.org/nimbledevicespartner/nimblesense.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Steerpath demo/Steerpath demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6BF9FEAF1D8434E7CE9809A04AAEF0D621D54AD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/nimbledevicespartner/nimblesense.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6BF9FEAF1D8434E7CE9809A04AAEF0D621D54AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6BF9FEAF1D8434E7CE9809A04AAEF0D621D54AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nimblesense</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A4478581D4D947100483667 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4478571D4D947100483667 /* ScanViewController.m */; };
+		1A4478601D4D957200483667 /* XHRadarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44785B1D4D957200483667 /* XHRadarIndicatorView.m */; };
+		1A4478611D4D957200483667 /* XHRadarPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44785D1D4D957200483667 /* XHRadarPointView.m */; };
+		1A4478621D4D957200483667 /* XHRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A44785F1D4D957200483667 /* XHRadarView.m */; };
+		1A44786A1D4D96C300483667 /* ESSEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4478651D4D96C300483667 /* ESSEddystone.m */; };
+		1A44786B1D4D96C300483667 /* ESSBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4478671D4D96C300483667 /* ESSBeaconScanner.m */; };
+		1A44786C1D4D96C300483667 /* ESSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4478691D4D96C300483667 /* ESSTimer.m */; };
+		279CBA0D1A6697AF005B3A90 /* VenueListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CBA0C1A6697AF005B3A90 /* VenueListingViewController.m */; };
+		279CBA101A669E65005B3A90 /* DownloadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CBA0F1A669E65005B3A90 /* DownloadHelper.m */; };
+		279CBA141A66C03D005B3A90 /* DestinationListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CBA131A66C03D005B3A90 /* DestinationListingViewController.m */; };
+		27C3030B1A665F1B00D39AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C3030A1A665F1B00D39AC3 /* main.m */; };
+		27C3030E1A665F1B00D39AC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C3030D1A665F1B00D39AC3 /* AppDelegate.m */; };
+		27C303141A665F1B00D39AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C303121A665F1B00D39AC3 /* Main.storyboard */; };
+		27C3032F1A665F4200D39AC3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27C3032E1A665F4200D39AC3 /* Settings.bundle */; };
+		27C3035C1A6663D300D39AC3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3035B1A6663D300D39AC3 /* CoreBluetooth.framework */; };
+		27C3035E1A6663D800D39AC3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3035D1A6663D800D39AC3 /* CoreLocation.framework */; };
+		27C303601A6663E700D39AC3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C3035F1A6663E700D39AC3 /* CoreMotion.framework */; };
+		27D4D7291A77818E00555508 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27D4D7241A77818E00555508 /* Montserrat-Black.otf */; };
+		27D4D72A1A77818E00555508 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27D4D7251A77818E00555508 /* Montserrat-Bold.otf */; };
+		27D4D72B1A77818E00555508 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27D4D7261A77818E00555508 /* Montserrat-Hairline.otf */; };
+		27D4D72C1A77818E00555508 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27D4D7271A77818E00555508 /* Montserrat-Light.otf */; };
+		27D4D72D1A77818E00555508 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27D4D7281A77818E00555508 /* Montserrat-Regular.otf */; };
+		27D4D7351A77C1B300555508 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D4D7341A77C1B300555508 /* InformationViewController.m */; };
+		27D4D73C1A77E10800555508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C303151A665F1B00D39AC3 /* Images.xcassets */; };
+		27D4D73E1A77E72B00555508 /* IndoorGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D4D73D1A77E72B00555508 /* IndoorGuide.framework */; };
+		27DF63D31A67B9BC00287FCF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DF63D21A67B9BC00287FCF /* MapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A4478561D4D947100483667 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		1A4478571D4D947100483667 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		1A44785A1D4D957200483667 /* XHRadarIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRadarIndicatorView.h; sourceTree = "<group>"; };
+		1A44785B1D4D957200483667 /* XHRadarIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRadarIndicatorView.m; sourceTree = "<group>"; };
+		1A44785C1D4D957200483667 /* XHRadarPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRadarPointView.h; sourceTree = "<group>"; };
+		1A44785D1D4D957200483667 /* XHRadarPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRadarPointView.m; sourceTree = "<group>"; };
+		1A44785E1D4D957200483667 /* XHRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRadarView.h; sourceTree = "<group>"; };
+		1A44785F1D4D957200483667 /* XHRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRadarView.m; sourceTree = "<group>"; };
+		1A4478641D4D96C300483667 /* ESSEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSEddystone.h; sourceTree = "<group>"; };
+		1A4478651D4D96C300483667 /* ESSEddystone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSEddystone.m; sourceTree = "<group>"; };
+		1A4478661D4D96C300483667 /* ESSBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSBeaconScanner.h; sourceTree = "<group>"; };
+		1A4478671D4D96C300483667 /* ESSBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSBeaconScanner.m; sourceTree = "<group>"; };
+		1A4478681D4D96C300483667 /* ESSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSTimer.h; sourceTree = "<group>"; };
+		1A4478691D4D96C300483667 /* ESSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSTimer.m; sourceTree = "<group>"; };
+		279CBA0B1A6697AF005B3A90 /* VenueListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueListingViewController.h; sourceTree = "<group>"; };
+		279CBA0C1A6697AF005B3A90 /* VenueListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueListingViewController.m; sourceTree = "<group>"; };
+		279CBA0E1A669E65005B3A90 /* DownloadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadHelper.h; sourceTree = "<group>"; };
+		279CBA0F1A669E65005B3A90 /* DownloadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadHelper.m; sourceTree = "<group>"; };
+		279CBA121A66C03D005B3A90 /* DestinationListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationListingViewController.h; sourceTree = "<group>"; };
+		279CBA131A66C03D005B3A90 /* DestinationListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationListingViewController.m; sourceTree = "<group>"; };
+		27C303051A665F1B00D39AC3 /* Steerpath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steerpath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C303091A665F1B00D39AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C3030A1A665F1B00D39AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27C3030C1A665F1B00D39AC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27C3030D1A665F1B00D39AC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27C303131A665F1B00D39AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27C303151A665F1B00D39AC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27C3032E1A665F4200D39AC3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		27C3035B1A6663D300D39AC3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		27C3035D1A6663D800D39AC3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		27C3035F1A6663E700D39AC3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		27D4D7241A77818E00555508 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		27D4D7251A77818E00555508 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		27D4D7261A77818E00555508 /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		27D4D7271A77818E00555508 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		27D4D7281A77818E00555508 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		27D4D7331A77C1B300555508 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		27D4D7341A77C1B300555508 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		27D4D73D1A77E72B00555508 /* IndoorGuide.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorGuide.framework; path = frameworks/IndoorGuide.framework; sourceTree = "<group>"; };
+		27DF63D11A67B9BC00287FCF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		27DF63D21A67B9BC00287FCF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C303021A665F1B00D39AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D4D73E1A77E72B00555508 /* IndoorGuide.framework in Frameworks */,
+				27C303601A6663E700D39AC3 /* CoreMotion.framework in Frameworks */,
+				27C3035E1A6663D800D39AC3 /* CoreLocation.framework in Frameworks */,
+				27C3035C1A6663D300D39AC3 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4478591D4D957200483667 /* XHRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				1A44785A1D4D957200483667 /* XHRadarIndicatorView.h */,
+				1A44785B1D4D957200483667 /* XHRadarIndicatorView.m */,
+				1A44785C1D4D957200483667 /* XHRadarPointView.h */,
+				1A44785D1D4D957200483667 /* XHRadarPointView.m */,
+				1A44785E1D4D957200483667 /* XHRadarView.h */,
+				1A44785F1D4D957200483667 /* XHRadarView.m */,
+			);
+			path = XHRadarView;
+			sourceTree = "<group>";
+		};
+		1A4478631D4D969400483667 /* BeaconScanner */ = {
+			isa = PBXGroup;
+			children = (
+				1A4478641D4D96C300483667 /* ESSEddystone.h */,
+				1A4478651D4D96C300483667 /* ESSEddystone.m */,
+				1A4478661D4D96C300483667 /* ESSBeaconScanner.h */,
+				1A4478671D4D96C300483667 /* ESSBeaconScanner.m */,
+				1A4478681D4D96C300483667 /* ESSTimer.h */,
+				1A4478691D4D96C300483667 /* ESSTimer.m */,
+			);
+			name = BeaconScanner;
+			sourceTree = "<group>";
+		};
+		27C302FC1A665F1B00D39AC3 = {
+			isa = PBXGroup;
+			children = (
+				27C3032E1A665F4200D39AC3 /* Settings.bundle */,
+				27C303071A665F1B00D39AC3 /* Marauder'sMap */,
+				27C303061A665F1B00D39AC3 /* Products */,
+				27C3035A1A6663A400D39AC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27C303061A665F1B00D39AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C303051A665F1B00D39AC3 /* Steerpath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C303071A665F1B00D39AC3 /* Marauder'sMap */ = {
+			isa = PBXGroup;
+			children = (
+				1A4478631D4D969400483667 /* BeaconScanner */,
+				1A4478591D4D957200483667 /* XHRadarView */,
+				1A4478561D4D947100483667 /* ScanViewController.h */,
+				1A4478571D4D947100483667 /* ScanViewController.m */,
+				27C3030C1A665F1B00D39AC3 /* AppDelegate.h */,
+				27C3030D1A665F1B00D39AC3 /* AppDelegate.m */,
+				279CBA121A66C03D005B3A90 /* DestinationListingViewController.h */,
+				279CBA131A66C03D005B3A90 /* DestinationListingViewController.m */,
+				279CBA0E1A669E65005B3A90 /* DownloadHelper.h */,
+				279CBA0F1A669E65005B3A90 /* DownloadHelper.m */,
+				27C303151A665F1B00D39AC3 /* Images.xcassets */,
+				27C303121A665F1B00D39AC3 /* Main.storyboard */,
+				27DF63D11A67B9BC00287FCF /* MapViewController.h */,
+				27DF63D21A67B9BC00287FCF /* MapViewController.m */,
+				27C303081A665F1B00D39AC3 /* Supporting Files */,
+				279CBA0B1A6697AF005B3A90 /* VenueListingViewController.h */,
+				279CBA0C1A6697AF005B3A90 /* VenueListingViewController.m */,
+				27D4D7331A77C1B300555508 /* InformationViewController.h */,
+				27D4D7341A77C1B300555508 /* InformationViewController.m */,
+			);
+			name = "Marauder'sMap";
+			path = "Steerpath demo";
+			sourceTree = "<group>";
+		};
+		27C303081A665F1B00D39AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27D4D7321A77825900555508 /* Fonts */,
+				27C303091A665F1B00D39AC3 /* Info.plist */,
+				27C3030A1A665F1B00D39AC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27C3035A1A6663A400D39AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D4D73D1A77E72B00555508 /* IndoorGuide.framework */,
+				27C3035F1A6663E700D39AC3 /* CoreMotion.framework */,
+				27C3035D1A6663D800D39AC3 /* CoreLocation.framework */,
+				27C3035B1A6663D300D39AC3 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27D4D7321A77825900555508 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27D4D7241A77818E00555508 /* Montserrat-Black.otf */,
+				27D4D7251A77818E00555508 /* Montserrat-Bold.otf */,
+				27D4D7261A77818E00555508 /* Montserrat-Hairline.otf */,
+				27D4D7271A77818E00555508 /* Montserrat-Light.otf */,
+				27D4D7281A77818E00555508 /* Montserrat-Regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C303041A665F1B00D39AC3 /* Steerpath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C303281A665F1B00D39AC3 /* Build configuration list for PBXNativeTarget "Steerpath" */;
+			buildPhases = (
+				27C303011A665F1B00D39AC3 /* Sources */,
+				27C303021A665F1B00D39AC3 /* Frameworks */,
+				27C303031A665F1B00D39AC3 /* Resources */,
+				27E498DF1C46874A00AA9C34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Steerpath;
+			productName = "Steerpath demo";
+			productReference = 27C303051A665F1B00D39AC3 /* Steerpath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C302FD1A665F1B00D39AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nimble Devices Oy";
+				TargetAttributes = {
+					27C303041A665F1B00D39AC3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9VUC3R8D65;
+					};
+				};
+			};
+			buildConfigurationList = 27C303001A665F1B00D39AC3 /* Build configuration list for PBXProject "Marauser'sMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C302FC1A665F1B00D39AC3;
+			productRefGroup = 27C303061A665F1B00D39AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C303041A665F1B00D39AC3 /* Steerpath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C303031A665F1B00D39AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D4D73C1A77E10800555508 /* Images.xcassets in Resources */,
+				27C3032F1A665F4200D39AC3 /* Settings.bundle in Resources */,
+				27D4D7291A77818E00555508 /* Montserrat-Black.otf in Resources */,
+				27D4D72B1A77818E00555508 /* Montserrat-Hairline.otf in Resources */,
+				27C303141A665F1B00D39AC3 /* Main.storyboard in Resources */,
+				27D4D72A1A77818E00555508 /* Montserrat-Bold.otf in Resources */,
+				27D4D72C1A77818E00555508 /* Montserrat-Light.otf in Resources */,
+				27D4D72D1A77818E00555508 /* Montserrat-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E498DF1C46874A00AA9C34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C303011A665F1B00D39AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C3030E1A665F1B00D39AC3 /* AppDelegate.m in Sources */,
+				1A44786C1D4D96C300483667 /* ESSTimer.m in Sources */,
+				27C3030B1A665F1B00D39AC3 /* main.m in Sources */,
+				1A4478581D4D947100483667 /* ScanViewController.m in Sources */,
+				279CBA0D1A6697AF005B3A90 /* VenueListingViewController.m in Sources */,
+				1A4478611D4D957200483667 /* XHRadarPointView.m in Sources */,
+				27DF63D31A67B9BC00287FCF /* MapViewController.m in Sources */,
+				1A4478621D4D957200483667 /* XHRadarView.m in Sources */,
+				279CBA101A669E65005B3A90 /* DownloadHelper.m in Sources */,
+				27D4D7351A77C1B300555508 /* InformationViewController.m in Sources */,
+				279CBA141A66C03D005B3A90 /* DestinationListingViewController.m in Sources */,
+				1A44786B1D4D96C300483667 /* ESSBeaconScanner.m in Sources */,
+				1A4478601D4D957200483667 /* XHRadarIndicatorView.m in Sources */,
+				1A44786A1D4D96C300483667 /* ESSEddystone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27C303121A665F1B00D39AC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C303131A665F1B00D39AC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C303261A665F1B00D39AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C303271A665F1B00D39AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C303291A665F1B00D39AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/frameworks",
+				);
+				INFOPLIST_FILE = "Steerpath demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbledevices.Steerpath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		27C3032A1A665F1B00D39AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/frameworks",
+				);
+				INFOPLIST_FILE = "Steerpath demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbledevices.Steerpath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C303001A665F1B00D39AC3 /* Build configuration list for PBXProject "Marauser'sMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C303261A665F1B00D39AC3 /* Debug */,
+				27C303271A665F1B00D39AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C303281A665F1B00D39AC3 /* Build configuration list for PBXNativeTarget "Steerpath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C303291A665F1B00D39AC3 /* Debug */,
+				27C3032A1A665F1B00D39AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C302FD1A665F1B00D39AC3 /* Project object */;
+}

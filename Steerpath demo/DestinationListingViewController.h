@@ -13,6 +13,8 @@
 @property IBOutlet UITableView *destinationsTable;
 @property IBOutlet UIActivityIndicatorView *nddLoadingIndicator;
 @property IBOutlet UIBarButtonItem *mapButton;
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (strong, nonatomic) IBOutlet UIButton *recordButton;
 
 @property (nonatomic) NSURL *nddURL;
 @end

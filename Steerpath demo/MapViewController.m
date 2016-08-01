@@ -29,6 +29,8 @@
     
     CLLocation *currentVisibleLocation;
     
+    FBSDKLoginButton *loginButton;
+    FBSDKShareButton *shareButton;
     
 }
 @end
@@ -41,29 +43,6 @@
     enteredZoneIds = [NSMutableArray array];
     enteredZoneNames = [NSMutableArray array];
     NSLog(@"Reset entered zones");
- 
-    // facebook share //
-    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
-    
-    CGRect loginFrame = CGRectMake(5, 30, 85, 30);
-    loginButton.frame = loginFrame;
-    //loginButton.center = self.view.center;
-    [self.floorPlanView addSubview:loginButton];
-    
-    FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
-    content.contentURL = [NSURL
-                          URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
-    content.imageURL = [NSURL
-                        URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
-    content.contentTitle = @"Come and catch Pokemon";
-    content.contentDescription = @"Come and catch Pokemon";
-    
-    FBSDKShareButton *shareButton = [[FBSDKShareButton alloc] init];
-    shareButton.shareContent = content;
-    
-    CGRect shareFrame = CGRectMake(95, 30, 70, 30);
-    shareButton.frame = shareFrame;
-    [self.floorPlanView addSubview:shareButton];
     
 }
 
@@ -227,6 +206,32 @@
     [enteredZoneIds addObject:[NSNumber numberWithUnsignedInt:zone_id]];
     [enteredZoneNames addObject:name];
     [self.zoneListTableView reloadData];
+    
+    // facebook share //
+    loginButton = [[FBSDKLoginButton alloc] init];
+    
+    CGRect loginFrame = CGRectMake(5, 30, 85, 30);
+    loginButton.frame = loginFrame;
+    //loginButton.center = self.view.center;
+    [self.floorPlanView addSubview:loginButton];
+    
+    FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
+    content.contentURL = [NSURL
+                          URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
+    content.imageURL = [NSURL
+                        URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
+    content.contentTitle = @"Come and catch Pokemon";
+    content.contentDescription = @"Come and catch Pokemon";
+    
+    shareButton = [[FBSDKShareButton alloc] init];
+    shareButton.shareContent = content;
+    
+    CGRect shareFrame = CGRectMake(95, 30, 70, 30);
+    shareButton.frame = shareFrame;
+    [self.floorPlanView addSubview:shareButton];
+    
+    [shareButton setHidden:NO];
+    [loginButton setHidden:NO];
 }
 -(void)guideManager:(IGGuideManager *)manager didExitZone:(uint32_t)zone_id name:(NSString *)name
 {
@@ -239,6 +244,9 @@
         NSLog(@"We exited a zone we had entered previous to the reset.");
     }
     [self.zoneListTableView reloadData];
+    
+    [shareButton setHidden:YES];
+    [loginButton setHidden:YES];
 }
 
 #pragma mark - Tap

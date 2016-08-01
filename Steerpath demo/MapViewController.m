@@ -8,13 +8,14 @@
 
 #import "MapViewController.h"
 #import "InformationViewController.h"
-
 #import <IndoorGuide/IGGuideManager.h>
-
 #import <IndoorGuide/IGPositioningDelegate.h>
 #import <IndoorGuide/IGDirectionsDelegate.h>
-
 #import <CoreLocation/CoreLocation.h>
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
 
 #define DONT_UPDATE_FREE_POSITION_THRESHOLD 0.75
 #define DONT_UPDATE_SINGLE_JUMP_POSITION_THRESHOLD 20.0
@@ -40,6 +41,30 @@
     enteredZoneIds = [NSMutableArray array];
     enteredZoneNames = [NSMutableArray array];
     NSLog(@"Reset entered zones");
+ 
+    // facebook share //
+    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+    
+    CGRect loginFrame = CGRectMake(5, 30, 85, 30);
+    loginButton.frame = loginFrame;
+    //loginButton.center = self.view.center;
+    [self.floorPlanView addSubview:loginButton];
+    
+    FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
+    content.contentURL = [NSURL
+                          URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
+    content.imageURL = [NSURL
+                        URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
+    content.contentTitle = @"Come and catch Pokemon";
+    content.contentDescription = @"Come and catch Pokemon";
+    
+    FBSDKShareButton *shareButton = [[FBSDKShareButton alloc] init];
+    shareButton.shareContent = content;
+    
+    CGRect shareFrame = CGRectMake(95, 30, 70, 30);
+    shareButton.frame = shareFrame;
+    [self.floorPlanView addSubview:shareButton];
+    
 }
 
 - (void)didReceiveMemoryWarning {

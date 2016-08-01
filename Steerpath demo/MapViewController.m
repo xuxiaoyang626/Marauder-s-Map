@@ -217,11 +217,11 @@
     
     FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
     content.contentURL = [NSURL
-                          URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
+                          URLWithString:@"https://s3.amazonaws.com/open-bucket/meeting+room.jpg"];
     content.imageURL = [NSURL
-                        URLWithString:@"https://s3.amazonaws.com/open-bucket/pokemongo.jpg"];
-    content.contentTitle = @"Come and catch Pokemon";
-    content.contentDescription = @"Come and catch Pokemon";
+                        URLWithString:@"https://s3.amazonaws.com/open-bucket/meeting+room.jpg"];
+    content.contentTitle = @"Marauder's Map";
+    content.contentDescription = @"Marauder's Map in INI building";
     
     shareButton = [[FBSDKShareButton alloc] init];
     shareButton.shareContent = content;
